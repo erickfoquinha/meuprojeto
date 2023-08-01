@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+img{
+    width: 200px;
+}
+
+*{
+   margin: 0;
+   padding: 0%;
+}
+
+#perfil img {
+    height: 200px;
+}
+
+   #container{
+        text-align: center;
+   }
+
+   ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+   }
+   
+  ul li a {
+     text-decoration: none;
+     border: 1px solid black;
+     justify-content: center;
+     display: flex;
+     padding: 15px;
+    }
